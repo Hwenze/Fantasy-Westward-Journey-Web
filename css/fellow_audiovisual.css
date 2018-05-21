@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    float: left;
+    padding: 5px;
+    box-shadow: 0 5px 5px #ccc;
+}
+.imgbox{
+    padding: 5px;
+    box-shadow:0 5px 5px #ccc;
+    border-radius: 5px;
+}
+.imgbox img{
+    width: 200px;
+    height: auto;
+}
+#picphoto{
+    position: relative;
+}
+

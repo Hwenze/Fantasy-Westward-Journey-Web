@@ -1,0 +1,183 @@
+/*=============公共样式=============*/
+*{margin:0;padding:0;}
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td { margin: 0; padding: 0; }
+img { border: 0 none; vertical-align: center; }
+ul, li { list-style-type: none; margin:0px; padding:0px;}
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 16px; font-family:"微软雅黑";  }
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+
+a, a:link { color: #000; text-decoration: none; }/*设置a标签基本样式与伪类选择器设置*/
+a:visited {}
+a:active, a:hover { text-decoration: none; color:#d00000; }
+a:focus { outline: none; } 
+
+.orange { color:#F26E01;}
+
+.clear {
+	clear:both;
+}
+
+/*==============主体结构样式==================*/
+header{
+	width:100%;
+}
+main{
+	width:100%;
+	height:950px;
+	/*margin:-29px 0 0 0;*/
+	position:relative;
+}
+footer{
+	width:100%;
+	margin:30px 0 0 0;
+	background:url(../img/dbbj.jpg) no-repeat center;
+}
+
+/*==========头部样式 start===========*/
+.header_box{
+	width:100%;
+	height:172px;
+	height:auto;
+	margin:0 auto;
+}
+
+.header_top{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.header_top .left,.header_top .center,.header_top .right{
+	float:left;
+}
+
+.header_top .left{
+	margin-top:5px;
+}
+
+.header_top .center{
+	width:432px;
+	height:60px;
+	/*float: left;*/
+	position:relative;
+}
+.header_top .center #big{
+	position:absolute;
+	z-index: 999;
+	top:55px;
+	left:-133px;
+	display:none;
+}
+.header_top .center a #small{
+	margin-left:12px;
+}
+
+.header_top .right{
+	width:447px;
+	height:55px;
+	float:right;
+	margin:-60px 0 0 0;
+	line-height:55px;
+}
+.header_top .right li{
+	display: inline-block;
+	float:right;
+}
+.header_top .right li a{
+	height:52px;
+	line-height:52px;
+	font-size:13px;
+	color:#909090;
+	padding: 0 13px 0 13px;
+}
+.header_top .right li:nth-of-type(2) a{
+	color:red;
+}
+.header_top .right li:hover{
+	background:#F4F4F4;
+	color:red;
+	border-bottom:2px solid red;
+}
+
+.header_menu{
+	width:100%;
+	height:83px;
+	line-height:83px;
+	background:#31ACF2;
+}
+.header_nav{
+	width:1194px;
+	margin:0 auto;
+}
+.header_nav > a{
+	width:125px;
+	height: 83px;
+	display:block;
+	float: left;
+	text-align:center;
+	font-size:18px;
+	color:white;
+}
+.header_nav a:hover{
+	background:#1C81BA;
+}
+.header_nav .nav_logo{
+	width:175px;
+	height:83px;
+	float:left;
+	background:url(../img/logo123.png) no-repeat 0 0;
+}
+/*==========头部样式 end===========*/
+
+
+
+
+/*==========底部样式 start===========*/
+.footer_box{
+	width:100%;
+	padding:40px 0 0 0;
+}
+.footer_center{
+	width:840px;
+	height:179px;
+	margin:0 auto;
+}
+.footer_img{
+	width:840px;
+	height:48px;
+}
+.footer_logo{
+	width:300px;
+	height:48px;
+	float:left;
+}
+.footer_nav{
+	width:473px;
+	height:48px;
+	float:left;
+}
+.footer_nav a{
+	font-size:12px;
+	color:#545454;
+}
+.footer_nav a:hover{
+	text-decoration:underline;
+}
+.footer_nav i{
+	font-size:12px;
+	color:#545454;
+}
+.footer_bottom > p{
+	font-size:12px;
+	color:#545454;
+}
+.footer_bottom > a{
+	font-size:12px;
+	color:##545454;
+}
+.footer_bottom > span{
+	font-size:12px;
+	color:#545454;
+}
+/*==========底部样式 end===========*/

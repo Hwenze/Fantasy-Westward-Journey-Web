@@ -1,0 +1,212 @@
+*{  
+    margin: 0;  
+    padding: 0;  
+}  
+.big_box{  
+    width:100%;  
+    height:900px;
+    position: relative;
+    background:#FFF2EC; 
+}  
+.top_box{  
+    width: 100%;  
+    height: 380px;
+    background:#E4413A;
+}
+.top_box_centen{
+    width: 1200px;
+    height: 380px;
+    position: relative;
+    margin: auto;
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+.top_box_left img{
+    margin:-34px 0 0 -65px;
+}
+.top_box_right{
+    width: 840px;
+    height: 380px;
+    float:right;
+    margin:-384px 0 0 0;
+}
+.top_box_right h2{
+    font-size:26px;
+    line-height: 30px;
+    color:#fff;
+    display:block;
+    position: relative;
+    margin:51px 0 0 0;
+}
+.tab_nav{
+    width: 520px;
+    height: 34px;
+    position: relative;
+    top: -30px;
+    right: -118px;
+    display: inline-block;
+    background:#FF9961;
+}
+.tab_nav a{
+    font-size:15px;
+    color:#fff;
+    display: block;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float:left;
+}
+.tab_nav a:hover{
+    color:#FF9961;
+    background:#fff;
+}
+.tab_nav a:nth-child(1){
+     color:#FF9961;
+    background:#fff;
+}
+.tab_nav span{
+    width: 44px;
+    height: 42px;
+    background:url(../img/biankuang.png) no-repeat 0 0;
+    display: block;
+    position: absolute;
+    top: -22px;
+    right: -22px;
+}
+.top_box_right_pic{
+    width: 840px;
+    height: 500px;
+    float:right;
+    margin:-20px 0 0 0;
+}
+.top_box_right_pic .list {
+    width: 840px;
+}
+.top_box_right_pic .list li{
+    width:200px;
+    height:150px;
+    float: left;
+    margin:7px 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot_box{
+    width: 100%;  
+    height: 380px;
+    background:#E4413A;
+    /*overflow:hidden;*/
+    /*border:1px solid green;*/
+    margin:95px 0 0 0;
+    /*position: absolute;*/
+    /*margin:auto; top: 0;left: 0;right: 0;bottom: 0;*/
+}
+.foot_box_centen{
+    width: 1200px;
+    height: 380px;
+    /*background:pink;*/
+    position: relative;
+    margin: auto;
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+.foot_box_left{
+    width: 840px;
+    height: 380px;
+    /*background:green;*/
+    float:left;
+    /*margin:-384px 0 0 0;*/
+}
+.foot_box_left h2{
+    font-size:26px;
+    line-height: 30px;
+    color:#fff;
+    display:block;
+    position: relative;
+    margin:51px 0 0 0;
+}
+.tab_nav2{
+    width: 348px;
+    height: 34px;
+    position: relative;
+    top: -30px;
+    right: -118px;
+    display: inline-block;
+    background:#FF9961;
+}
+.tab_nav2 a{
+    font-size:15px;
+    color:#fff;
+    display: block;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float:left;
+}
+.tab_nav2 a:hover{
+    color:#FF9961;
+    background:#fff;
+}
+.tab_nav2 a:nth-child(1){
+    color:#FF9961;
+    background:#fff;
+}
+
+.tab_nav2 p{
+    width: 44px;
+    height: 42px;
+    background:url(../img/biankuang.png) no-repeat 0 0;
+    display: block;
+    position: absolute;
+    top: -22px;
+    right: -22px;
+}
+.foot_box_left_pic{
+    width: 840px;
+    height: 500px;
+    float:left;
+    margin:-20px 0 0 0;
+}
+.foot_box_left_pic .list2 {
+    width: 426px;
+    float:right;
+}
+.foot_box_left_pic .list2 li{
+    width:200px;
+    height:150px;
+    float: left;
+    margin:0 0 10px 10px;
+}
+
+.foot_box_right img{
+    float:right;
+    margin:-45px -74px 0 0;
+}
+
+footer{
+    width:100%;
+    margin:0px 0 0 0;
+    position: absolute;
+}
+
+.wall{
+    width: 200px;
+    height: 150px;
+    margin:-154px 0 0 0;
+    display: none;
+}

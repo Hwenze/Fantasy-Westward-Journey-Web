@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>《梦幻西游》图片视频</title>
+	<!-- 加载公共样式 -->
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<!-- 加载独立样式 -->
+	<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+	<!-- 加载JQ脚本 -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<header>
+		<div class="header_box">
+			<div class="header_top">
+				<div class="left">
+					<img src="./img/logo.png" alt="" />
+				</div>
+				<div class="center">
+					<a href=""><img id="small" src="./img/top1.png"></a>
+					<img id="big" src="./img/top1_2.png">
+					<script>
+						var oDivCenter = document.getElementsByClassName('center')[0];
+						console.log(oDivCenter);
+						var small = document.getElementById("small");
+						var big = document.getElementById('big');
+						oDivCenter.onmouseover = function(){
+							small.style.display = 'none';
+							big.style.display = 'block';
+						}
+						oDivCenter.onmouseout = function(){
+							small.style.display = 'block';
+							big.style.display = 'none';
+						}
+
+
+					</script>
+				</div>
+				<ul class="right">
+					<li><a href="">安卓充值9.8折</a></li>
+					<li><a>网易游戏全目录</a></li>
+					<li><a href="">安卓充值</a></li>
+					<li><a href="">注册账号</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="header_menu">
+				<div class="header_nav">
+					<a href="index.html">官网首页</a>
+					<a href="official_information.html">新闻资讯</a>
+					<a href="#">赛事中心</a>
+					<a href="gameplay_data.html">游戏介绍</a>
+					<span class="nav_logo"><a href="#"></a></span>
+					<a href="gallery.html">玩法资料</a>
+					<a href="fellow_audiovisual.html">同人影音</a>
+					<a href="passenger_service_area.html">客服专区</a>
+					<a href="#">官方论坛</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- 主体 -->
+	<div class="big_box">
+		<div class="top_box">
+			<div class="top_box_centen">
+				<div class="top_box_left">
+					<img src="./img/jianxiake.png" alt="">
+				</div>
+				<div class="top_box_right">
+					<h2>梦幻图库</h2>
+					<div class="tab_nav">
+						<a href="#">牛图</a>
+						<a href="#">活动</a>
+						<a href="#">壁纸</a>
+						<a href="#">家园</a>
+						<a href="#">同人</a>
+						<a href="#">有奖征集</a>
+						<span></span>
+					</div>
+					<div class="top_box_right_pic">
+						<ul class="list">
+				<li>
+					<a href="#"><img src="./img/pic1.png" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic2.png" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic3.png" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic4.png" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic5.jpg" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic6.jpg" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic7.png" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/pic8.png" width="200px" height="150px"></a>
+				</li>
+				<div class="clear"></div>
+			</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="foot_box">
+			<div class="foot_box_centen">
+				<div class="foot_box_left">
+					<h2>梦幻视频</h2>
+					<div class="tab_nav2">
+						<a href="#">直播</a>
+						<a href="#">装备</a>
+						<a href="#">武神坛</a>
+						<a href="#">GG</a>
+						<p></p>
+					</div>
+					<div class="foot_box_left_pic">
+						<img src="./img/sp1.jpg" alt="">
+						<ul class="list2">
+				<li>
+					<a href="#"><img src="./img/sp2.jpg" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/sp3.jpg" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/sp4.jpg" width="200px" height="150px"></a>
+				</li>
+				<li>
+					<a href="#"><img src="./img/sp5.jpg" width="200px" height="150px"></a>
+				</li>
+				<div class="clear"></div>
+			</ul>
+					</div>
+				</div>
+				<div class="foot_box_right">
+					<img src="./img/hutouguai.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 底部 -->
+	<footer>
+		<div class="footer_box">
+			<div class="footer_center">
+				<div class="footer_img">
+					<span class="footer_logo">
+						<a href="http://www.163.com"><img src="./img/f_logo1.png"></a>
+						<a href="http://game.163.com"><img src="./img/f_logo2.png"></a>
+					</span>
+					<span class="footer_nav">
+							<a href="http://gb.corp.163.com/gb/about/overview.html">公司简介</a>-
+							<a href="http://help.163.com/">客户服务</a>-
+							<a href="http://gb.corp.163.com/gb/legal.html">相关法律</a>-
+							<a href="http://game.163.com/about/">网易游戏</a>-
+							<a href="http://game.163.com/contact/">联系我们</a>-
+							<a href="http://game.163.com/contact/business.html">商务合作</a>-
+							<a href="http://game.163.com/job/">加入我们</a>-
+							<a href="http://update.unisdk.163.com/html/latest_v5.html">用户协议</a>
+							<!-- <br>
+ -->							<i>网易公司版权所有 ©1997-2018</i>
+					</span>
+				</div>
+				<div class="footer_bottom">
+					<p>本游戏适合16岁以上的玩家进入。</p>
+					<p>积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。</p>
+					<a href="http://game.163.com/news/2010/6/9/442_216957.html">《网络游戏管理暂行办法》</a>
+					<span>文网游备字〔2015〕 Ｍ-RPG 1055 号</span>
+					<span>《网络文化经营许可证》</span>
+					<span>浙网文[2016] 0155-055号</span>
+					<span>批准文号：新广出审 [2017] 830号</span>
+					<span> 出版物号：ISBN 978-7-7979-4278-2</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	// 当鼠标移入触发事件
+	//原理通过JQ写入wall这个div然后再通过鼠标hover事件来控制这个div是否隐藏
+	$(function(){
+	let html='';
+	html += '<div class="wall">';
+	html += '<a href="#">';
+	html += '<img src="./img/zheyan.png" /> ';
+	html += '</a>';
+	html += '</div>';
+	$('.top_box_right_pic ul li').append(html);
+	$('.foot_box_left_pic ul li').append(html);
+	$('.top_box_right_pic ul li').hover(
+	function(){
+		 $(this).find('.wall').css('display','block');
+	},function(){
+		$(this).find('.wall').css('display','none');
+	});
+	$('.foot_box_left_pic ul li').hover(
+	function(){
+		 $(this).find('.wall').css('display','block');
+	},function(){
+		$(this).find('.wall').css('display','none');
+	});
+});
+</script>
+</html>
